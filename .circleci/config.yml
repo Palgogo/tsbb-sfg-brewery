@@ -12,4 +12,7 @@ jobs:
 
       - run: mvn dependency:go-offline
 
-      - run: mvn package
+
+      - run: mvn integration-test
+
+
